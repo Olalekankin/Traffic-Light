@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 :root{
     /* color variables */
     --black-bg: #000000;
@@ -141,7 +144,7 @@ body{
     top: 12px;
     left: 8px;
 }
-.first-red{
+/* .first-red{
     background: var(--red-light);
 }
 
@@ -151,7 +154,7 @@ body{
 
 .third-yellow{
     background: var(--yellow-light);
-}
+} */
 
 .four-red{
     background: var(--red-light);
@@ -184,13 +187,16 @@ body{
 }
 
 h1{
-    font-size: 70px;
-    color: white;
+    font-size: 60px;
+    color: rgb(100, 100, 100);
     z-index: 999;
     position: absolute;
-    top: 15px;
-    left: 26px;
-    font-family: di;
+    /* top: 12px;
+    left: 17px; */
+     font-family: 'Black Ops One', cursive;;
+     text-align: center;
+     width: 100%;
+     height: 100%;
 }
 
 .light-head-four{

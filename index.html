@@ -8,13 +8,14 @@
     <title>Traffic Light</title>
     <!-- Css link -->
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="container">
         <!--  light stand 1 -->
         <div class="light-stand one">
             <div class="light-head">
-                <div class="timer"><h1>30</h1></div>
+                <div class="timer"><h1 id="stand-one">00</h1></div>
                 <div class="bulb red">
                     <div class="inner"></div>
                     <div class="outer first-red"></div>
@@ -32,7 +33,7 @@
         <!--  light stand 2-->
         <div class="light-stand two">
             <div class="light-head">
-                <div class="timer"><h1>30</h1></div>
+                <div class="timer"><h1 id="stand-two">00</h1></div>
                 <div class="bulb red">
                     <div class="inner"></div>
                     <div class="outer second-red"></div>
@@ -50,7 +51,7 @@
         <!--  light stand 3 -->
         <div class="light-stand three">
             <div class="light-head">
-                <div class="timer"><h1>30</h1></div>
+                <div class="timer"><h1 id="stand-three">00</h1></div>
                 <div class="bulb red">
                     <div class="inner"></div>
                     <div class="outer third-red"></div>
